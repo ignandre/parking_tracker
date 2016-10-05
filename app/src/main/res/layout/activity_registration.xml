@@ -1,0 +1,51 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="@string/registration_title"
+            android:paddingBottom="50dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/emailText"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/registration_editText_email"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/passwordText"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/registration_editText_password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/registration_button_register"
+            android:text="@string/registration_registerText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="register" />
+
+    </LinearLayout>
+</ScrollView>

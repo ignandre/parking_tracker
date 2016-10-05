@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40sp"
+        android:paddingRight="40sp"
+        android:paddingTop="100sp"
+        android:paddingBottom="100sp"
+        android:weightSum="46"
+        >
+
+        <TextView
+            android:text="@string/main_appName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="36sp"
+            android:typeface="sans"
+            android:textColor="#708090"
+            android:paddingBottom="100sp"
+            android:layout_weight="8"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:text="@string/emailText"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            />
+
+        <EditText
+            android:id="@+id/main_editText_email"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            />
+
+        <TextView
+            android:text="@string/passwordText"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            />
+
+        <EditText
+            android:id="@+id/main_editText_password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            />
+
+        <Button
+            android:id="@+id/main_button_login"
+            android:text="@string/main_loginText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="signIn"
+            android:layout_weight="10"
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="10dip"
+            />
+
+        <TextView
+            android:id="@+id/main_textView_register"
+            android:text="@string/main_registerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="register"
+            android:layout_weight="4"
+            android:paddingBottom="10dip"
+            />
+
+        <TextView
+            android:id="@+id/main_textView_resetPassword"
+            android:text="@string/main_forgotPasswordText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="resetPassword"
+            android:layout_weight="4"
+            android:paddingBottom="10dip"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

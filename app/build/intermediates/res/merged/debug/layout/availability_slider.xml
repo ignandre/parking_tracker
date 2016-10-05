@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="5">
+
+    <Button
+        android:id="@+id/parkingtype_text"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/parking_type"/>
+
+    <SeekBar
+        android:id="@+id/avail_seekbar"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3.5"
+        android:layout_gravity="center_vertical"
+        android:max="10" />
+
+    <TextView
+        android:id="@+id/seekbar_text"
+        android:text="0"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"/>
+
+</LinearLayout><!-- From: file:/C:/Users/ANDRE/Documents/cse110_parking_tracker.git/app/src/main/res/layout/availability_slider.xml -->

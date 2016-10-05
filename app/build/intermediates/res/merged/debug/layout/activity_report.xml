@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:paddingTop="40dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Choose the Parking Spot"
+        android:id="@+id/parkspot_text"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="10dp"
+        android:gravity="fill_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:background="@drawable/button_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gilman"
+            android:id="@+id/buttonGilman"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:background="@drawable/button_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hopkins"
+            android:id="@+id/buttonHopkins"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:background="@drawable/button_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Regents"
+            android:id="@+id/buttonRegents"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:background="@drawable/button_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pangea"
+            android:id="@+id/buttonPangea"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:background="@drawable/button_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Library Parking"
+            android:id="@+id/buttonLibraryParking"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="% Parking Availability"
+        android:id="@+id/avail_text"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="20dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/parking_availability"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Report"
+            android:id="@+id/reportButton"
+            android:layout_gravity="right"
+            android:onClick="onReportClick" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout><!-- From: file:/C:/Users/ANDRE/Documents/cse110_parking_tracker.git/app/src/main/res/layout/activity_report.xml -->

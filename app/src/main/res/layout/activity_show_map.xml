@@ -1,0 +1,24 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:id="@+id/map"
+    tools:context="ucsd.cse110.parkingtracker.ShowMapActivity"
+    android:name="com.google.android.gms.maps.SupportMapFragment">
+
+    <Button
+        android:id="@+id/showMap_button_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Settings"
+        android:onClick="openSettings"/>
+
+    <Button
+        android:id="@+id/showMap_button_report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:text="@string/button_report"
+        android:onClick="reportParking"/>
+
+</fragment>

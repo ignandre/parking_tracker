@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/table_floor"
+            android:paddingLeft="1dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/floor"
+            android:textSize="20sp"/>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_weight="1"
+            android:background="@drawable/table_cell"
+            android:paddingLeft="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/parking_type"
+            android:textSize="16sp"/>
+        <TextView
+            android:background="@drawable/table_cell"
+            android:layout_weight="1"
+            android:paddingLeft="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/availability"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_weight="0.5"
+            android:paddingLeft="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"/>
+    </TableRow>
+
+    <TableRow android:id="@+id/table_v" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff0000"
+            android:text="@string/parking_type_v"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="2dp"
+            android:id="@+id/v_availability"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/table_cell"
+            android:text="0"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/v_indicator"
+            android:layout_weight="0.5"
+            android:paddingLeft="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff0000"/>
+    </TableRow>
+
+    <TableRow android:id="@+id/table_a" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:background="#ff0000"
+            android:text="@string/parking_type_a"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="2dp"
+            android:id="@+id/a_availability"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/table_cell"
+            android:text="0"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/a_indicator"
+            android:layout_weight="0.5"
+            android:paddingLeft="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff0000"/>
+    </TableRow>
+
+    <TableRow android:id="@+id/table_b" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:background="#00cd63"
+            android:text="@string/parking_type_b"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="2dp"
+            android:id="@+id/b_availability"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/table_cell"
+            android:text="0"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/b_indicator"
+            android:layout_weight="0.5"
+            android:paddingLeft="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff0000"/>
+    </TableRow>
+
+    <TableRow android:id="@+id/table_s" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:background="#ffea00"
+            android:text="@string/parking_type_s"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_weight="1"
+            android:paddingLeft="2dp"
+            android:id="@+id/s_availability"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/table_cell"
+            android:text="0"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/s_indicator"
+            android:layout_weight="0.5"
+            android:paddingLeft="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff0000"/>
+    </TableRow>
+
+</TableLayout><!-- From: file:/C:/Users/ANDRE/Documents/cse110_parking_tracker.git/app/src/main/res/layout/floor_layout.xml -->

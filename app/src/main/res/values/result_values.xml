@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="REQUEST_MAIN_REGISTER">1</integer>
+    <integer name="RESULT_MAIN_REGISTER_SUCCESS">1</integer>
+
+    <integer name="REQUEST_SHOWMAP_REPORT">2</integer>
+    <integer name="RESULT_SHOWMAP_REPORT_SUCCESS">2</integer>
+
+    <integer name="RESULT_SETTINGS_LOGOUT">3</integer>
+    <integer name="REQUEST_SETTINGS">3</integer>
+</resources>

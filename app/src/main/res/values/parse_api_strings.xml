@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- File does not work. Ignore for now -->
+
+
+    <!-- Parking Structure Class -->
+    <string name="parse_ParkingStructureClass">ParkingStructure</string>
+    <string name="parse_ParkingStructureName">Name</string>
+    <string name="parse_ParkingStructureFloors">Floors</string>
+    <string name="parse_ParkingStructureAvailability">AvailabilityArray</string>
+
+    <!-- Parking Structures -->
+    <string name="parse_Gilman">Gilman</string>
+    <string name="parse_Hopkins">Hopkins</string>
+
+</resources>

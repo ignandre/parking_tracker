@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape= "rectangle">
+    <solid android:color="#dfdfdf"/>
+    <stroke android:width="2dp"
+        android:color="#ffffff"/>
+</shape><!-- From: file:/C:/Users/ANDRE/Documents/cse110_parking_tracker.git/app/src/main/res/drawable/table_cell.xml -->

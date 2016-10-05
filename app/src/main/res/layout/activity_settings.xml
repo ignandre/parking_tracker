@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingTop="40dp"
+        android:paddingRight="40dp"
+        android:weightSum="3"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Choose a Parking Type"
+                android:id="@+id/preferType"
+                android:layout_gravity="center"
+                android:paddingBottom="20dip"
+                />
+
+            <RadioGroup
+                android:id="@+id/radiogroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_gravity="center">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="S"
+                    android:id="@+id/radioButton1"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingRight="10dp"
+                    android:enabled="true"
+                    android:checked="false"
+                    android:clickable="true"
+                    android:contextClickable="false" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="B"
+                    android:id="@+id/radioButton2"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingRight="10dp"
+                    android:enabled="true"
+                    android:checked="false"
+                    android:clickable="true" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A"
+                    android:id="@+id/radioButton3"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingRight="10dp"
+                    android:enabled="true"
+                    android:checked="false"
+                    android:clickable="true" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="V/VP"
+                    android:id="@+id/radioButton4"
+                    android:layout_gravity="center_horizontal"
+                    android:enabled="true"
+                    android:checked="false"
+                    android:clickable="true" />
+            </RadioGroup>
+
+            <Button
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:text="Set Parking Type"
+                android:id="@+id/settings_button_setParkingType"
+                android:layout_gravity="center"
+                android:onClick="settype"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1">
+
+            <TextView
+                android:paddingTop="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_gravity="center"
+                android:paddingBottom="20dip"
+                android:text="Change Password" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Enter Password"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/etChangePassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Re-enter Password"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/etReenterPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"/>
+
+            <Button
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:text="Change Password"
+                android:id="@+id/settings_button_changePassword"
+                android:layout_gravity="center"
+                android:onClick="changePassword"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:padding="40dip"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Logout"
+                android:id="@+id/settings_button_logout"
+                android:layout_gravity="center"
+                android:padding="40dip"
+                android:onClick="logout" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

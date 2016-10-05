@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="10" android:weightSum="1">
+        <TextView
+            android:id="@+id/text"
+            android:layout_weight="0.45"
+            android:paddingLeft="2sp"
+            android:layout_width="0dp"
+            android:layout_height="100dip"
+            android:textColor="#ff0000"
+            android:text="@string/parking_type_v"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/availability"
+            android:layout_weight="0.45"
+            android:paddingLeft="2sp"
+            android:layout_width="0dp"
+            android:layout_height="100dip"
+            android:background="@drawable/table_cell"
+            android:text="0"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/indicator"
+            android:layout_weight="0.1"
+            android:paddingLeft="2sp"
+            android:layout_width="0dp"
+            android:layout_height="100dip"
+            android:background="#ff0000"/>
+
+</TableRow>

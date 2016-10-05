@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="10"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/report_button_parkingTypeText"
+        android:background="@drawable/button_normal"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:text="@string/parking_type"/>
+
+    <SeekBar
+        android:id="@+id/report_seekbar_availability"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip"
+        android:max="10" />
+
+    <TextView
+        android:id="@+id/seekbar_text"
+        android:text="0"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+</LinearLayout>

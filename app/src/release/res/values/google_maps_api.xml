@@ -1,0 +1,20 @@
+<resources>
+    <!--
+    Google Maps API Key Instructions
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=E8:C7:96:F7:39:59:AC:67:0D:82:7A:09:36:F4:44:E1:6A:12:49:94%3Bucsd.cse110.parkingtracker
+
+    You can also add your credentials to an existing key, using this line:
+    E8:C7:96:F7:39:59:AC:67:0D:82:7A:09:36:F4:44:E1:6A:12:49:94;ucsd.cse110.parkingtracker
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
+        YOUR_KEY_HERE
+    </string>
+</resources>

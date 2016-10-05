@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Parking Tracker</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_show_map">Map</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="button_sign_in">Sign In</string>
+    <string name="button_test">Test ParkingInfo</string>
+
+    <!-- Parking Structure -->
+    <string name="floor">Floor</string>
+    <string name="parking_type">Parking Type</string>
+    <string name="parking_type_v">V/VP</string>
+    <string name="parking_type_a">A</string>
+    <string name="parking_type_b">B</string>
+    <string name="parking_type_s">S</string>
+    <string name="availability">Availability%</string>
+    <string name="button_report">Report</string>
+    <string name="button_testing">Show Parking</string>
+
+    <string name="invalid_credentials">Wrong email or password</string>
+
+    <string-array name="availability_types">
+        <item>V</item>
+        <item>A</item>
+        <item>B</item>
+        <item>S</item>
+    </string-array>
+    <string name="title_activity_reset">Reset</string>
+    <string name="main_appName">Find My Parking</string>
+    <string name="emailText">UCSD Email</string>
+    <string name="passwordText">Password</string>
+    <string name="main_loginText">Login</string>
+    <string name="main_registerText">Need to register?</string>
+    <string name="main_forgotPasswordText">Forgot password?</string>
+    <string name="registration_title">Find My Parking Registration</string>
+    <string name="registration_registerText">Register</string>
+    <string name="reset_title">Find My Parking Password Reset</string>
+    <string name="emailRepeatText">Re-enter your UCSD Email</string>
+    <string name="reset_resetPassword">Reset Password</string>
+</resources>

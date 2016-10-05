@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="40sp"
+    android:paddingRight="40sp"
+    android:paddingTop="100sp"
+    android:weightSum="42"
+    >
+
+    <TextView
+        android:text="Welcome to UCSD Parking Helper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:typeface="sans"
+        android:textColor="#708090"
+        android:paddingBottom="100sp"
+        android:layout_weight="8"
+        />
+
+    <TextView
+        android:text="UCSD Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_weight="5"
+        />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        />
+
+    <TextView
+        android:text="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_weight="5"
+        />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_weight="5"
+        />
+
+    <Button
+        android:id="@+id/bLogin"
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="signIn" 
+        android:layout_weight="10"
+        />
+
+    <TextView
+        android:id="@+id/tvRegisterLink"
+        android:text="Need to register?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="register"
+        android:layout_weight="4"
+        />
+
+</LinearLayout><!-- From: file:/C:/Users/ANDRE/Documents/cse110_parking_tracker.git/app/src/main/res/layout/content_main.xml -->
